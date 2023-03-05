@@ -3,8 +3,8 @@
 #include "Abin_enlazada.hpp"
 #include "abin_E-S.h"
 
-#include "EJ2.hpp"
-#include "EJ6.hpp"
+#include "EJ7.hpp"
+//#include "EJ6.hpp"
 
 using namespace std;
 
@@ -34,6 +34,18 @@ void ejercicio6 (Abin<T>& A){
 
     cout << "\nGrado de desequilibrio: " << res << endl;
 }
+
+template <typename T>
+void ejercicio7 (Abin<T>& A){
+    bool res = Abinpseudocompleto(A);
+
+    if (res){
+        std::cout << "\nAbin pseudocompleto." << std::endl;
+    }else{
+        std::cout << "\nAbin NO pseudocompleto." << std::endl;
+    }
+}
+
 int main() {
     Abin<tElto> A, B;
     cout << "*** Lectura del árbol binario A ***\n";
@@ -42,7 +54,7 @@ int main() {
     cout << "\n*** Mostrar árbol binario A ***\n";
     imprimirAbin(A);
 
-    ejercicio6(A);
+    ejercicio7(A);
     return 0;
 }
 
