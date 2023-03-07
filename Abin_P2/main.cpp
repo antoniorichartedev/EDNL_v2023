@@ -2,7 +2,7 @@
 #include "Abin_enlazada.hpp"
 #include "abin_E-S.h"
 
-#include "EJ2.hpp"
+#include "EJ3.hpp"
 
 using namespace std;
 
@@ -27,7 +27,7 @@ int main() {
     rellenarAbin(A, fin); // Desde std::cin
 
     cout << "\n*** Mostrar árbol binario A ***\n";
-    imprimirAbin(A);
+    //imprimirAbin(A);
 
     /*cout << "\n\n*** Lectura del árbol binario B ***\n";
     rellenarAbin(B, fin); // Desde std::cin
@@ -35,7 +35,5 @@ int main() {
     cout << "\n*** Mostrar árbol binario B ***\n";
     imprimirAbin(B);*/
 
-    B = Abinreflejado(A);
-    imprimirAbin(B);
     return 0;
 }
