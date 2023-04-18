@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Abb_P4.dir/main.cpp.o -o Abb_P4 

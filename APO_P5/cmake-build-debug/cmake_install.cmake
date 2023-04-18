@@ -1,4 +1,4 @@
-# Install script for directory: /home/antonio/Escritorio/UNIVERSIDAD/Tercer Curso/EDNL/EDNL_v2023/Abb_P4
+# Install script for directory: /home/antonio/Escritorio/UNIVERSIDAD/Tercer Curso/EDNL/EDNL_v2023/APO_P5
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/antonio/Escritorio/UNIVERSIDAD/Tercer Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/antonio/Escritorio/UNIVERSIDAD/Tercer Curso/EDNL/EDNL_v2023/APO_P5/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

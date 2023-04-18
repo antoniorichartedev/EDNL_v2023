@@ -1,0 +1,3 @@
+/home/antonio/Escritorio/UNIVERSIDAD/Tercer Curso/EDNL/EDNL_v2023/APO_P5/cmake-build-debug/CMakeFiles/APO_P5.dir
+/home/antonio/Escritorio/UNIVERSIDAD/Tercer Curso/EDNL/EDNL_v2023/APO_P5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/antonio/Escritorio/UNIVERSIDAD/Tercer Curso/EDNL/EDNL_v2023/APO_P5/cmake-build-debug/CMakeFiles/rebuild_cache.dir

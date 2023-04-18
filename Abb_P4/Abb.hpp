@@ -16,6 +16,7 @@ public:
     const T& elemento() const;
     const Abb& izqdo() const;
     const Abb& drcho() const;
+    void podar(const T& e);
     Abb(const Abb& A); // ctor. de copia
     Abb& operator =(const Abb& A); // asig. árboles
     ~Abb(); // destructor
@@ -149,6 +150,20 @@ Abb<T>& Abb<T>::operator =(const Abb<T>& A)
             r = new arbol(*A.r); // Copiar raíz y descendientes.
     }
     return *this;
+}
+
+template <typename T>
+void Abb<T>::podar(const T &e) {
+    if (r->elto > e){
+        // vamos al subárbol de la izq.
+        r->izq.podar(e);
+    }else if (r->elto < e){
+        // vamos al subárbol der.
+        r->der.podar(e);
+    }else{
+        delete r; // borramos r y sus hijos.
+        r = nullptr;
+    }
 }
 
 template <typename T>
