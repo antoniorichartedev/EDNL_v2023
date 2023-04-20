@@ -9,13 +9,7 @@ int main() {
     cout << "\n**** Imprimimos el Abin: ****" << endl;
     imprimirAbin(A);
 
-    cout << "\n*** Comprobamos que este Abin es un AbinReflejado ***" << endl;
-    if(AbinesReflejado(A)){
-        cout << "**** Este Abin es Reflejado";
-        cout << " y tiene " << NumNodosReflejados(A.raiz(), A) << " nodos reflejados. ****" << endl;
-    }else{
-        cout << "**** Este Abin NO es reflejado," << " pero tiene " << NumNodosReflejados(A.raiz(), A) << " nodos reflejados. ****" << endl;;
-    }
+    cout << "\n*** Este Abin tiene " << NumNodosReflejados(A) << " nodos reflejados. ***" << endl;
     /*cout << "\n*** Vamos a comprobar que los elementos del ABin se ha introducido correctamente en el vector *** " << endl;
     vector<int> vec;
     insertarelemAbin_inorden(A, vec);
