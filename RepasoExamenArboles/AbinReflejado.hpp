@@ -6,13 +6,14 @@
 #define REPASOEXAMENARBOLES_ABINREFLEJADO_HPP
 #include "../Abin_P1/Abin_enlazada.hpp"
 
+
 template <typename T>
-bool AbinesReflejado(const Abin<T>& A){
-    return AbinesReflejado_rec(A.raiz(), A);
+bool AbinesReflejado_rec(typename Abin<T>::nodo n1, typename Abin<T>::nodo n2, const Abin<T>& A){
+
 }
 
 template <typename T>
-bool AbinesReflejado_rec(typename Abin<T>::nodo n, const Abin<T>& A){
+bool AbinesReflejado(const Abin<T>& A){
 
 }
 
