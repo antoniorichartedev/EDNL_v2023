@@ -8,105 +8,103 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/antonio/Escritorio/UNIVERSIDAD/Tercer Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug"/>
+				<Option working_dir="C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/antonio/Escritorio/UNIVERSIDAD/Tercer\ Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/antonio/Escritorio/UNIVERSIDAD/Tercer\ Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/antonio/Escritorio/UNIVERSIDAD/Tercer\ Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/antonio/Escritorio/UNIVERSIDAD/Tercer\ Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Abb_P4">
-				<Option output="/home/antonio/Escritorio/UNIVERSIDAD/Tercer Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug/Abb_P4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/antonio/Escritorio/UNIVERSIDAD/Tercer Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug"/>
+				<Option output="C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug/Abb_P4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/antonio/Escritorio/UNIVERSIDAD/Tercer\ Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Abb_P4"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/antonio/Escritorio/UNIVERSIDAD/Tercer\ Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/antonio/Escritorio/UNIVERSIDAD/Tercer\ Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/antonio/Escritorio/UNIVERSIDAD/Tercer\ Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Abb_P4"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Abb_P4/fast">
-				<Option output="/home/antonio/Escritorio/UNIVERSIDAD/Tercer Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug/Abb_P4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/antonio/Escritorio/UNIVERSIDAD/Tercer Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug"/>
+				<Option output="C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug/Abb_P4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/antonio/Escritorio/UNIVERSIDAD/Tercer\ Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Abb_P4/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/antonio/Escritorio/UNIVERSIDAD/Tercer\ Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/antonio/Escritorio/UNIVERSIDAD/Tercer\ Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/antonio/Escritorio/UNIVERSIDAD/Tercer\ Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Abb_P4/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/antonio/Escritorio/UNIVERSIDAD/Tercer Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug"/>
+				<Option working_dir="C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/antonio/Escritorio/UNIVERSIDAD/Tercer\ Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/antonio/Escritorio/UNIVERSIDAD/Tercer\ Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/antonio/Escritorio/UNIVERSIDAD/Tercer\ Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/antonio/Escritorio/UNIVERSIDAD/Tercer\ Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/antonio/Escritorio/UNIVERSIDAD/Tercer Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug"/>
+				<Option working_dir="C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/antonio/Escritorio/UNIVERSIDAD/Tercer\ Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/antonio/Escritorio/UNIVERSIDAD/Tercer\ Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/antonio/Escritorio/UNIVERSIDAD/Tercer\ Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/antonio/Escritorio/UNIVERSIDAD/Tercer\ Curso/EDNL/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/antonio/Escritorio/UNIVERSIDAD/Tercer Curso/EDNL/EDNL_v2023/Abb_P4/Abb.hpp">
+		<Unit filename="C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/Abb.hpp">
 			<Option target="Abb_P4"/>
 		</Unit>
-		<Unit filename="/home/antonio/Escritorio/UNIVERSIDAD/Tercer Curso/EDNL/EDNL_v2023/Abb_P4/EJ1.hpp">
+		<Unit filename="C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/EJ1.hpp">
 			<Option target="Abb_P4"/>
 		</Unit>
-		<Unit filename="/home/antonio/Escritorio/UNIVERSIDAD/Tercer Curso/EDNL/EDNL_v2023/Abb_P4/EJ2.hpp">
+		<Unit filename="C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/EJ2.hpp">
 			<Option target="Abb_P4"/>
 		</Unit>
-		<Unit filename="/home/antonio/Escritorio/UNIVERSIDAD/Tercer Curso/EDNL/EDNL_v2023/Abb_P4/EJ3.hpp">
+		<Unit filename="C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/EJ3.hpp">
 			<Option target="Abb_P4"/>
 		</Unit>
-		<Unit filename="/home/antonio/Escritorio/UNIVERSIDAD/Tercer Curso/EDNL/EDNL_v2023/Abb_P4/EJ4.hpp">
+		<Unit filename="C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/EJ4.hpp">
 			<Option target="Abb_P4"/>
 		</Unit>
-		<Unit filename="/home/antonio/Escritorio/UNIVERSIDAD/Tercer Curso/EDNL/EDNL_v2023/Abb_P4/EJ5.hpp">
+		<Unit filename="C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/EJ5.hpp">
 			<Option target="Abb_P4"/>
 		</Unit>
-		<Unit filename="/home/antonio/Escritorio/UNIVERSIDAD/Tercer Curso/EDNL/EDNL_v2023/Abb_P4/abb_E_S.hpp">
+		<Unit filename="C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/abb_E_S.hpp">
 			<Option target="Abb_P4"/>
 		</Unit>
-		<Unit filename="/home/antonio/Escritorio/UNIVERSIDAD/Tercer Curso/EDNL/EDNL_v2023/Abb_P4/main.cpp">
+		<Unit filename="C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/main.cpp">
 			<Option target="Abb_P4"/>
 		</Unit>
-		<Unit filename="/home/antonio/Escritorio/UNIVERSIDAD/Tercer Curso/EDNL/EDNL_v2023/Abb_P4/CMakeLists.txt">
+		<Unit filename="C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

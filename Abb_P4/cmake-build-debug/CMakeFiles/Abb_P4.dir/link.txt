@@ -1,1 +1,3 @@
-/usr/bin/c++ -g CMakeFiles/Abb_P4.dir/main.cpp.o -o Abb_P4 
+"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Abb_P4.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\Abb_P4.dir/objects.a @CMakeFiles\Abb_P4.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Abb_P4.dir/objects.a -Wl,--no-whole-archive -o Abb_P4.exe -Wl,--out-implib,libAbb_P4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Abb_P4.dir\linklibs.rsp

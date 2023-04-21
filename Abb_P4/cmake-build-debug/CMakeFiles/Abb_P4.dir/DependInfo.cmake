@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/antonio/Escritorio/UNIVERSIDAD/Tercer Curso/EDNL/EDNL_v2023/Abb_P4/main.cpp" "CMakeFiles/Abb_P4.dir/main.cpp.o" "gcc" "CMakeFiles/Abb_P4.dir/main.cpp.o.d"
+  "C:/Users/anton/Documents/GitHub/EDNL_v2023/Abb_P4/main.cpp" "CMakeFiles/Abb_P4.dir/main.cpp.obj" "gcc" "CMakeFiles/Abb_P4.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

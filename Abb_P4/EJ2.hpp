@@ -19,32 +19,25 @@ void insertarelemAbb_inorden(vector<T>& v, const Abb<T>& A){
 }
 
 template <typename T>
-void equilibrarAbb(Abb<T>& A){
+vector<T> equilibrarAbb(Abb<T>& A){
     vector<T> v;
     insertarelemAbb_inorden(v, A);
     Abb<T> res;
-    equilibrarAbb_rec(v, res);
+    equilibrarAbb_rec(v, res, 0, v.size() - 1);
     A = res;
+    return v;
 }
 
 template <typename T>
-void equilibrarAbb_rec(const vector<T>& v, Abb<T>& res){
-    int mediana = (v.size() + 1) / 2 - 1;
-    int i = 0;
-    if(!v.empty()){
-        res.insertar(*(v.begin() + mediana));
+void equilibrarAbb_rec(const vector<T>& v, Abb<T>& res, size_t inicio, size_t fin){
+    size_t mediana = (fin + inicio) / 2;
+    res.insertar(v[mediana]);
 
-        vector<T> vizq, vder;
-        for(i = 0; i < mediana; i++){
-            vizq.push_back(*(v.begin() + i));
-        }
-        for(i = mediana + 1; i < v.size(); i++){
-            vder.push_back(*(v.begin() + i));
-        }
-
-        equilibrarAbb_rec(vizq, res);
-        equilibrarAbb_rec(vder, res);
-
+    if(mediana - 1 >= inicio and mediana - 1 <= fin){
+        equilibrarAbb_rec(v, res, inicio, mediana - 1);
+    }
+    if(mediana + 1 >= inicio and mediana + 1 <= fin){
+        equilibrarAbb_rec(v, res, mediana + 1, fin);
     }
 }
 #endif //ABB_P4_EJ2_HPP
